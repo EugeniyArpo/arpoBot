@@ -1,5 +1,7 @@
 <?php
 
+file_put_contents(__DIR__ . '/log.txt', file_get_contents('php://input'));
+
 const TOKEN = '1276287592:AAG8Bll-uyge042VPDdn3h02nnS3vyN35yM';
 const BASE_URL = 'https://api.telegram.org/bot' . TOKEN . '/';
 
